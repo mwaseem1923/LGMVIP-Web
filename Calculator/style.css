@@ -1,0 +1,41 @@
+.container {
+    background-color: aliceblue;
+    width: 280px;
+    height: 300px;
+    margin-top: 150px;
+    margin-left: 450px;
+}
+
+input {
+    width: 275px;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: end;
+}
+
+.row {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button {
+    background-color: rgb(12, 207, 45);
+    color: white;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.operator {
+    background-color: lightsalmon;
+    font-size: xxxx-larger;
+}
