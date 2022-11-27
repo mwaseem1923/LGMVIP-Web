@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sample Registeration Form</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Sample</h1>
+        <h2>Student Enrollment Form</h2>
+    </header>
+    <h2 class="enrolled-list">Enrolled Students</h2>
+    <main>
+        <form action="">
+            <div class="left-container">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="John Doe" required>
+            </div>
+            <div class="left-container">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="JohnDoe@gmail.com" required>
+            </div>
+            <div class="left-container">
+                <label for="website">Website:</label>
+                <input type="text" id="website" placeholder="facebook.com">
+            </div>
+            <div class="left-container">
+                <label for="image">Image Link:</label>
+                <input type="text" id="image" placeholder="image.jpg">
+            </div>
+            <div class="left-container">
+                <label for="gender">Gender:</label>
+                <div class="left-container-setting">Male:
+                    <input type="radio" id="gender">Female:
+                    <input type="radio" id="gender">
+                </div>
+            </div>
+            <div class="left-container">
+                <label for="skills">Skills:</label>
+                <div class="left-container-setting">
+                    HTML
+                    <input type="checkbox" id="skills"> CSS
+                    <input type="checkbox" id="skills"> JS
+                    <input type="checkbox" id="skills">
+                </div>
+            </div>
+
+            <button id="blue-btn">Enroll Student</button>
+            <button id="red-btn">Clear</button>
+        </form>
+        <section>
+            <div id="cards">
+                <div id="card-heading" class="card-heading">
+                    <h3>Description</h3>
+                    <h3>Image</h3>
+                </div>
+            </div>
+            <div id="add-card">
+                <!-- <div class="card-item">
+                    <div id="card-data">
+                        <h4 class="space" id="name">Name</h4>
+                        <p class="space" id="email">email</p>
+                        <p class="space" id="gender">Gender</p>
+                        <a class="space" href="link">website</a>
+                        <p class="space" id="skills">Skills</p>
+                    </div>
+                    <div id="card-image">
+                        <img src="Profile.webp" alt="profile" height="100px">
+                    </div>
+                </div> -->
+            </div>
+            <!-- <div id="add-card">
+                <div class="card-item">
+                    <div id="card-data">
+                        <h4 class="space" id="name">Name</h4>
+                        <p class="space" id="email">email</p>
+                        <p class="space" id="gender">Gender</p>
+                        <a class="space" href="link">website</a>
+                        <p class="space" id="skills">Skills</p>
+                    </div>
+                    <div id="card-image">
+                        <img src="Profile.webp" alt="profile" height="100px">
+                    </div>
+                </div>
+            </div> -->
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
